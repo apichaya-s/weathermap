@@ -12,10 +12,10 @@ public class WeatherImplDelegate
 {
 	@Autowired
 	CacheUtil cacheUtil;
-	
+
     public CurrentWeatherSummary showCurrentWeather(String c)
     {
-        String city = StringUtils.isNotBlank(c) ? c : "shenzhen,cn";
+        String city = StringUtils.isNotBlank(c) ? c : "Bangkok,TH";
         return cacheUtil.getCurrentWeatherSummary(city);
     }
 }
