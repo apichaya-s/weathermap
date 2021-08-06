@@ -21,6 +21,9 @@ servicecomb:
       compression: false
       connection:
         idleTimeoutInSeconds: 2
+    client:
+      http2:
+        useAlpnEnabled: false
   handler:
     chain:
       Provider:
