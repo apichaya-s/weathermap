@@ -70,8 +70,8 @@
       };
 
       $scope.globalData = {
-        city: "shenzhen",
-        country: "CN",
+        city: "bangkok",
+        country: "TH",
         tempType: "C",
         text1: T.T("currentCity"),
         text2: T.T("weather36H"),

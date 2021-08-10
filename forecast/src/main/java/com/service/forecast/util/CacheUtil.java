@@ -25,7 +25,7 @@ public class CacheUtil
 
     @Autowired
     private OpenWeatherMapClient openWeatherMapClient;
-    
+
     public ForecastSummary getForecastWeatherSummary(String kk)
     {
         ForecastSummary su = cacheMap.computeIfAbsent(kk, (nm) -> {

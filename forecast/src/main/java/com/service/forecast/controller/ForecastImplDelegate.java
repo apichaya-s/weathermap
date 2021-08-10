@@ -13,10 +13,10 @@ public class ForecastImplDelegate
 {
 	@Autowired
 	CacheUtil cacheUtil;
-	
+
     public ForecastSummary showForecastWeather(String c)
     {
-        String city = StringUtils.isNotBlank(c) ? c : "ShenZhen,CN";
+        String city = StringUtils.isNotBlank(c) ? c : "ฺBangkok,TH";
         return cacheUtil.getForecastWeatherSummary(city);
     }
 }

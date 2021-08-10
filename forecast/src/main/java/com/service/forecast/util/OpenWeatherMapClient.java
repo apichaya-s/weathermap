@@ -36,7 +36,7 @@ public class OpenWeatherMapClient {
 
     private static final String APP_KEY = "763d8bb819e1b0fb58c8385ddd26856e";
 
-    private static final String DEFAULT = "ShenZhen,CN";
+    private static final String DEFAULT = "Bangkok,TH";
 
     // Metric: Celsius, Imperial: Fahrenheit
     private static String URL_HTTP = "http://api.openweathermap.org/data/2.5/forecast?appid=%s&units=metric&q=%s";
